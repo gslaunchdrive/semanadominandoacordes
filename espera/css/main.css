@@ -1,0 +1,17 @@
+#bg {
+    background-image: url(../assets/wallpaper.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;
+}
+
+#_form_6484DFEE1DD55_ ._form-label,
+#_form_6484DFEE1DD55_ ._form_element ._form-label{
+    color: white;
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "aulas": [
+            {
+                "id": 1,
+                "title": "A Grande Promessa",
+                "date": "2022-12-03T21:00:00Z",
+                "label": "03/12 às 20h",
+                "video": "d1f1Zt5ZOrY",
+                "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+                "textShare": "Cara estou participando de um evento sensacional, você deveria dar uma olhada!",
+                "files": ""
+            },
+            {
+                "id": 2,
+                "title": "Você Também Pode",
+                "date": "2022-12-14T21:00:00Z",
+                "label": "14/12 às 20h",
+                "video": "dTz0F7QA8AU",
+                "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+                "textShare": "Cara estou participando de um evento sensacional, você deveria dar uma olhada!",
+                "files": ""
+            },
+            {
+                "id": 3,
+                "title": "Primeiro passo para o Sucesso",
+                "date": "2022-12-25T21:00:00Z",
+                "label": "25/12 às 20h",
+                "video": "-RH-lM2BMcQ",
+                "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+                "textShare": "Cara estou participando de um evento sensacional, você deveria dar uma olhada!",
+                "files": ""
+            }
+        ],
+        "configs": {
+            "comunity": "https://www.facebook.com/academiadoliquor",
+            "whatsapp": "https://chat.whatsapp.com/DBrL8RaXg4HJTHoLmSJ1QP",
+            "interested": {
+                "date": "2022-12-16T23:59:59Z",
+                "whatsapp": "https://chat.whatsapp.com/DBrL8RaXg4HJTHoLmSJ1QP"
+            },
+            "sharedLink": "https://chat.whatsapp.com/DBrL8RaXg4HJTHoLmSJ1QP?send=",
+            "endEvent": "2022-12-31T23:59:59Z"
+        }
+    }
+]

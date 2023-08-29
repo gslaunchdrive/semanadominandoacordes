@@ -1,0 +1,208 @@
+#section-1 .parallax {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(../assets/wallpaper.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#section-1 .bg-form {
+    background: radial-gradient(#000000e0, #000000);
+    border-radius: 15px;
+    padding: 40px 50px;
+    filter: hue-rotate(0deg) saturate(1) brightness(1) contrast(1) invert(0) sepia(0) blur(0px) grayscale(0) drop-shadow(rgb(13 223 13) 0px 0px 24px);
+}
+
+#section-1 h1,
+#section-1 .event {
+    text-shadow: 1px 2px black;
+}
+
+#section-1 .event {
+   color: #9de587;
+   font-size: 1.5rem;
+}
+
+#section-1 {
+    position: relative;
+}
+
+#section-1 ._form-content {
+    color: white;
+}
+
+#section-1 .border-wallpaper{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    transform: rotate(180deg);
+    bottom: -1px;
+}
+
+#section-1 .shape-fill{
+    fill:#07abb7;
+    transform-origin: center;
+    transform: rotateY(0deg);
+}
+
+#section-1 .info-form {
+    color: #cdcbcb;
+    font-weight: 100;
+    font-size: 10px;
+    padding: 10px 0 0;
+}
+
+#section-2 {
+    /* background: radial-gradient(#2204c380, #07abb7);
+     */
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02058e+0,0b5003+44,000528+100 */
+    background: #000528; /* Old browsers */
+    /* linear-gradient(to bottom,  #002805 0%,#0b5003 44%,#002805 100%) */
+    background: -moz-linear-gradient(top,  #002805 0%, #0b5003 44%, #002805 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #002805 0%,#0b5003 44%,#002805 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #002805 0%,#0b5003 44%,#002805 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002805', endColorstr='#002805',GradientType=0 ); /* IE6-9 */
+}
+
+#section-3 {
+    /* background: radial-gradient(#2204c380, #07abb7);
+     */
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02058e+0,141414+44,000528+100 */
+    background: #000528; /* Old browsers */
+    background: -moz-linear-gradient(top,  #051000 0%, #141414 44%, #051000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #051000 0%,#141414 44%,#051000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #051000 0%,#141414 44%,#051000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#051000', endColorstr='#051000',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+#section-3 #image01 {
+    background-image: url(../assets/AULA1.webp);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+#section-3 #image02 {
+    background-image: url(../assets/AULA2.webp);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+#section-3 #image03 {
+    background-image: url(../assets/AULA3.webp);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+
+#section-3 small {
+    font-size: 1.1em;    
+}
+
+#featured-event .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    background-color: #038718 !important;
+}
+
+#featured-event .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+#featured-event .icon-link>.bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    fill: currentcolor;
+    transition: transform .25s ease-in-out;
+}
+
+#featured-event .icon-link:hover>.bi {
+    transform: translate(.25rem);
+}
+
+
+#section-4,
+section#section-5 {
+    background-color: #111111 !important;
+}
+
+#section-6 {
+    background-color: #070707;
+}
+
+#section-6 .btn,
+#section-4-1 .btn {
+    min-width: 300px;
+    margin-top: 15px;
+    line-height: 50px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+footer {
+    background-color: #000000;
+    color: #6c757d;
+}
+
+.btn-orange {
+    background-color: #cd7822;
+    color: white;   
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 959px) and (min-width: 768px) {}
+
+@media screen and (max-width: 767px) {
+    #section-1 .parallax {
+        padding: 0 0;
+    }
+    #section-1 .bg-form {
+        border-radius: 0;
+        background: radial-gradient(#062510cc, #051000);
+        padding: 40px 40px 30px;
+    }
+    #section-1 .event {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width: 479px) {}

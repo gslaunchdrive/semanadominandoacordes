@@ -1,0 +1,227 @@
+#section-1 {
+    background: radial-gradient(#037783, #044426);
+}
+
+#section-1 #image01 {
+    background-image: url(../assets/oportunidade.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+
+#section-1 #image02 {
+    background-image: url(../assets/caminho.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+
+#section-1 #image03 {
+    background-image: url(../assets/descubra.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+
+#section-1 a {
+    text-decoration: none;
+}
+
+#section-1 .card-body {
+    font-size: 1.25rem;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#section-1 .aula-liberada .card {
+    background-color: #012919 !important;
+    border-radius: 5px;
+    color: white;
+}
+
+#section-1 .aula-liberada .card.active {
+    background-color: #009721 !important;
+    border-radius: 5px;
+}
+
+#section-1 .aula-liberada .card.active :hover {
+    background-color: #009721 !important;
+    border-radius: 5px;
+}
+
+#section-1 .aula-agendada .card {
+    background-color: gray !important;
+}
+
+#section-1 .aula-liberada :hover {
+    text-decoration: none;
+    background-color: #044426;
+    -webkit-transition: background 0.25s linear;
+    -moz-transition: background 0.25s linear;
+    -ms-transition: background 0.25s linear;
+    -o-transition: background 0.25s linear;
+    transition: background 0.25s linear;
+    border-radius: 5px;
+}
+
+#section-2 .parallax {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(../assets/neuronio-blur.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#section-2 iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    padding: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+#section-2 .roma {
+    font-weight: 300;
+    line-height: 0.9rem;
+    padding-bottom: 10px;
+}
+
+#content-cpl .btn {
+    width: 100%;
+}
+
+#content-cpl #files{
+    display: none;
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 600px;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    border-radius: 5px;
+}
+
+.product-device::before {
+    background-image: url('../assets/whatsapp-compress.webp');
+    zoom: 0.3;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+}
+
+.modal-fullscreen {
+    opacity: 0.8;
+}
+
+.modal-fullscreen .spinner-border{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+    color: #011970;
+}
+
+
+
+
+@media screen and (max-width: 1199.98px) {
+    .product-device-2 {
+        left: -5%;
+    }
+    .product-device {
+        right: 0%;
+    }
+    #content-cpl #title {
+        font-size: calc(1.3rem + .6vw)!important;
+    }
+    #content-cpl .btn {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .product-device {
+        display: none !important;
+    }
+    #section-2 .parallax > div.container {
+        max-width: none;
+        width: 100%;
+    }
+    #section-2 iframe {
+        border-radius: 5px 5px 0 0;
+    }
+    #content-cpl .btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #content-cpl .btn {
+        font-size: 18px;
+    }
+    .box .imgbox img {
+        width: 100% !important;
+    }
+    .box {
+        height: 80px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .box .content {
+        font-size: 15px;
+        padding: 0 5px !important;
+    }
+    .box .imgbox {
+        top: 15px !important;
+        margin: -20px !important;
+    }
+    #clock > div {
+        width: 90px !important;
+    }
+
+    #clock div > span {
+        padding: 5px !important;
+        width: 55px !important;
+    }
+    #clock div.fs-5{
+        font-size: 13px !important;
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    #section-4 {
+        display: none !important;
+    }
+}
