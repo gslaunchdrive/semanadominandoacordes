@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $("#phone").mask("+55 (00) 0000-00009");
 
-    $("#_form_33_submit").click(function() {
+    $("#_form_35_submit").click(function() {
         var clean = $("#phone").val().replace(/\D/g, "");
         $("#phone").val(clean);
         dataLayer.push({
